@@ -1,0 +1,726 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8057 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/LuxPC149/Desktop/GitFolder/LuxHouseOculus01
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60792
+Successfully changed project path to: C:/Users/LuxPC149/Desktop/GitFolder/LuxHouseOculus01
+C:/Users/LuxPC149/Desktop/GitFolder/LuxHouseOculus01
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 266.63 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.60 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/LuxPC149/Desktop/GitFolder/LuxHouseOculus01/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.025225 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 162.44 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025294 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.14 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <33518779906b403ba9f96eccba6a861b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1889ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1518ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5995 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.7 MB). Loaded Objects now: 6455.
+Memory consumption went from 231.4 MB to 230.7 MB.
+Total: 5.576500 ms (FindLiveObjects: 1.027900 ms CreateObjectMapping: 0.566200 ms MarkObjects: 3.600000 ms  DeleteObjects: 0.381400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1221845.418883 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/06437.jpg.001.mat
+  artifactKey: Guid(ac2ad8209a1a4fa4bb307733982591cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/06437.jpg.001.mat using Guid(ac2ad8209a1a4fa4bb307733982591cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60693530ab17f866325c8d1c388c4ca') in 0.372022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[0035_Tan].mat
+  artifactKey: Guid(5f823612f8b16dd4eb43161121ae89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[0035_Tan].mat using Guid(5f823612f8b16dd4eb43161121ae89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7584ca95e1cd2a9c2b8e74081f53bd') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[0136_Charcoal].mat
+  artifactKey: Guid(03753e0beac952246bce1a9fca41b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[0136_Charcoal].mat using Guid(03753e0beac952246bce1a9fca41b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d771537c9fd07ec3ef8d787ce0e82ae') in 0.015184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[0131_Silver]1.mat
+  artifactKey: Guid(74af64138ec165245bc1cf85cfb5b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[0131_Silver]1.mat using Guid(74af64138ec165245bc1cf85cfb5b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ddb1784875ab16f19a39927666fedf') in 0.018396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/46844213198878.jpg
+  artifactKey: Guid(b58fd4882357e194995d7871bdec4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/46844213198878.jpg using Guid(b58fd4882357e194995d7871bdec4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e69a03e9e35e69dfa22b4163d82050f') in 0.066921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[0134_DimGray].mat
+  artifactKey: Guid(dd996e4efab973249a46bc248a1fb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[0134_DimGray].mat using Guid(dd996e4efab973249a46bc248a1fb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65af38ecf3f609c73a08feed359815') in 0.015124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[0129_WhiteSmoke].mat
+  artifactKey: Guid(62b0091e392f65e44a453e3930f6d5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[0129_WhiteSmoke].mat using Guid(62b0091e392f65e44a453e3930f6d5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fd21036ff481ffa738b847182eba39') in 0.025777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.273110 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color M08]1.mat
+  artifactKey: Guid(1727f3ce054f5514fad8b7845e040186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color M08]1.mat using Guid(1727f3ce054f5514fad8b7845e040186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dfb407807dabc99d6c0a5b9fd1d7bf') in 0.015574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color_002]3.mat
+  artifactKey: Guid(89ad74b7f6b615e4a9cb15c96666be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color_002]3.mat using Guid(89ad74b7f6b615e4a9cb15c96666be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83e129bd819e6d5a62a7843e189d70e') in 0.021469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color_002]1.mat
+  artifactKey: Guid(487507b2760d3b145be52278ffab1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color_002]1.mat using Guid(487507b2760d3b145be52278ffab1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f4f6a5fa3cf8b4459222e87553542') in 0.016005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.252443 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color_004]1.mat
+  artifactKey: Guid(b3b62aa33a326e24982c0903012028e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color_004]1.mat using Guid(b3b62aa33a326e24982c0903012028e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e0c3fdb63bc9f5ea8c0882cef2fd8') in 0.014028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color_008]1.mat
+  artifactKey: Guid(3061decfeba4b4f4db3deb1f8b53fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color_008]1.mat using Guid(3061decfeba4b4f4db3deb1f8b53fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dc71c723c9d4628579f0ee0cbb5b31') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Color_D05].mat
+  artifactKey: Guid(8bc30a76f00e4d748b4f67b8f9bb01f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Color_D05].mat using Guid(8bc30a76f00e4d748b4f67b8f9bb01f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6f53a23c93216d0c8104e7c1b10762') in 0.016234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.217406 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Metal Rough].mat
+  artifactKey: Guid(5a65a12ccd3667d44918c62fccecdd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Metal Rough].mat using Guid(5a65a12ccd3667d44918c62fccecdd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d8e583463b54b197d8f0761332b4a8') in 0.018566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Metal_Aluminum_Anodized].mat
+  artifactKey: Guid(4e75d4816841c6d458806ea572417bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Metal_Aluminum_Anodized].mat using Guid(4e75d4816841c6d458806ea572417bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dfd29f4b06825050b9c1a9b83496ba') in 0.022458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Metal_Corrogated_Shiny]1.mat
+  artifactKey: Guid(88668c6ccf07d17478734d514c8bd4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Metal_Corrogated_Shiny]1.mat using Guid(88668c6ccf07d17478734d514c8bd4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67045d07b28e72a823435f9fc375729') in 0.013930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003334 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Mirror 01]2.mat
+  artifactKey: Guid(b9505ae3f8bc9b740ac09932f034b832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Mirror 01]2.mat using Guid(b9505ae3f8bc9b740ac09932f034b832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669fff64a4abd70a2b7032d8b857dc9e') in 0.016386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_1.jpg.mat
+  artifactKey: Guid(176afad581f5ed94b97a11e65d05d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_1.jpg.mat using Guid(176afad581f5ed94b97a11e65d05d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a9d2d7e844e8849596eedf833327e5') in 0.018135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/[Translucent Glass Gray]2.mat
+  artifactKey: Guid(4a082512f37256847bbb6f3f47720e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/[Translucent Glass Gray]2.mat using Guid(4a082512f37256847bbb6f3f47720e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595cfe7f09f9bbf4445bd9c907ce5a82') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.636596 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_8.mat
+  artifactKey: Guid(d87cc95eb734e764bb3831815610f9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_8.mat using Guid(d87cc95eb734e764bb3831815610f9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f97d3db2c05d7849032a650387a0a4c') in 0.030234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_19.mat
+  artifactKey: Guid(e4b8ff5247b2bf34a843dc2c54edda24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_19.mat using Guid(e4b8ff5247b2bf34a843dc2c54edda24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7b4d768d143b55b97de189d045bc45') in 0.066265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028797 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_24.mat
+  artifactKey: Guid(f006a081eafdc524d86dad56ebff7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_24.mat using Guid(f006a081eafdc524d86dad56ebff7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869ac039c836a854688c1a5293aeb623') in 0.104742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092234 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_48.mat
+  artifactKey: Guid(4f62c66be6bce4e4ea1e629afb0ae4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_48.mat using Guid(4f62c66be6bce4e4ea1e629afb0ae4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9873fe8a5fe25f5030a69201d7826584') in 0.016622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_75.mat
+  artifactKey: Guid(1e80f7aceec9f2a4e8205e644aa292b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_75.mat using Guid(1e80f7aceec9f2a4e8205e644aa292b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321b16f01b59e93ef65387739f2ad300') in 0.015359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/antenna-architectural-design-clouds-2625766.jpg
+  artifactKey: Guid(82d8160532e002340b4004c8036e1c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/antenna-architectural-design-clouds-2625766.jpg using Guid(82d8160532e002340b4004c8036e1c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcd987364f3c5f708ce8c970e620331') in 0.165790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/abstract-architectural-design-architecture-2439595.jpg.mat
+  artifactKey: Guid(0c89294247fc68248a548fa50594eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/abstract-architectural-design-architecture-2439595.jpg.mat using Guid(0c89294247fc68248a548fa50594eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b1aeb31e056373cb9bb10bccd520eb') in 0.074117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_104.mat
+  artifactKey: Guid(121578395446c944c96d5c8e3fc41af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_104.mat using Guid(121578395446c944c96d5c8e3fc41af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ad6c5c74e4580f57455d57cf2570fc') in 0.013772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_Charcoal_.mat
+  artifactKey: Guid(75b565ea4a5cff646bece4efb843e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_Charcoal_.mat using Guid(75b565ea4a5cff646bece4efb843e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca04d14ca7f89ff18c0ca7161bdf55b') in 0.050386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/architectural-design-architecture-blue-skies-2679542.jpg.mat
+  artifactKey: Guid(f62136627a4a83142be2fd2f40507e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/architectural-design-architecture-blue-skies-2679542.jpg.mat using Guid(f62136627a4a83142be2fd2f40507e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f7ab129ceb8d80cab7be973d7870c7') in 0.102450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/_auto_25.mat
+  artifactKey: Guid(5a6497140ba35bb469598b1cb48bdac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/_auto_25.mat using Guid(5a6497140ba35bb469598b1cb48bdac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa87f0af926dd9dc39a084175e68271') in 0.015540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202906 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/bark_diffuse.jpg.mat
+  artifactKey: Guid(57cc6eb2b515c9c42b2f23d5414768cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/bark_diffuse.jpg.mat using Guid(57cc6eb2b515c9c42b2f23d5414768cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3fdf7ae5a1092398d3388c0f815d2c') in 0.095400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/book (30.png.mat
+  artifactKey: Guid(de82ca3ef5368bc41b0c21423e6e1e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/book (30.png.mat using Guid(de82ca3ef5368bc41b0c21423e6e1e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8f81b3eba489611f45ac9e238c2faf') in 0.024661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/book (28.png.mat
+  artifactKey: Guid(a8dd18b4a7b850c41a01136947e2b8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/book (28.png.mat using Guid(a8dd18b4a7b850c41a01136947e2b8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7329d73ada7b9f968d7dc5c070da4373') in 0.046715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/brown.jpg.mat
+  artifactKey: Guid(09140c1aa2f997a49acf411c2ea05a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/brown.jpg.mat using Guid(09140c1aa2f997a49acf411c2ea05a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eac029da3e3ab0fd80eac1f69d05d5') in 0.024961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/book (23.png.mat
+  artifactKey: Guid(f4cf617bd9a531948ba9801d0b0e14d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/book (23.png.mat using Guid(f4cf617bd9a531948ba9801d0b0e14d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72b09ba02ef47d7e9102c37ff9b5bce') in 0.023682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/book (27.png.mat
+  artifactKey: Guid(c8f54973446148b43ac552182ed1cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/book (27.png.mat using Guid(c8f54973446148b43ac552182ed1cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011ef580aeaa2530d142a803aca98145') in 0.022950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.670717 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/c478b7859d36a048a865fcea6RRR64e2417.jpg
+  artifactKey: Guid(eaf2eb1748daa324b96ad4a6775506d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/c478b7859d36a048a865fcea6RRR64e2417.jpg using Guid(eaf2eb1748daa324b96ad4a6775506d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c9e91ab2cfa4eadbf18b2d7880c885') in 0.021650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/ceramics_glaze.tga.mat
+  artifactKey: Guid(8d74a5fd56e7e0749bf57fc1cc192b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/ceramics_glaze.tga.mat using Guid(8d74a5fd56e7e0749bf57fc1cc192b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a28348c8c2512a1b4d63e36abbf0616') in 0.030245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/ceramics_glaze.tga
+  artifactKey: Guid(62a8cef02d39b8441a8d97a3cf24a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/ceramics_glaze.tga using Guid(62a8cef02d39b8441a8d97a3cf24a514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456c39f4ae4af5280626a3266e9b34f3') in 0.016334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.337104 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Color_004.mat
+  artifactKey: Guid(cadf06f0995a1a94d9b4ec5d3c852f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Color_004.mat using Guid(cadf06f0995a1a94d9b4ec5d3c852f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18440439bd2faab5e9ff2aa7abe6e52f') in 0.019724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/cromado_02.jpg.mat
+  artifactKey: Guid(5e0bbb0ff50f3a344b75eb064da530f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/cromado_02.jpg.mat using Guid(5e0bbb0ff50f3a344b75eb064da530f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee9feb2b5091764fd8a64af418f81ad') in 0.019065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059248 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/e2f4ae2be7179c32cf78b2ed5591a485.jpg
+  artifactKey: Guid(293f6aa24036c594782f24926cf3e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/e2f4ae2be7179c32cf78b2ed5591a485.jpg using Guid(293f6aa24036c594782f24926cf3e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2526a588b983659389972a6985ae935e') in 0.015987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/etf10d-¼Ó±ß.jpg.mat
+  artifactKey: Guid(1a8e1d4a11f3eaf4b8dab64ddf8c06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/etf10d-¼Ó±ß.jpg.mat using Guid(1a8e1d4a11f3eaf4b8dab64ddf8c06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3e2f523c344fe42b61786f2e82d0b0') in 0.024269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550181 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/forsketchup.jpg
+  artifactKey: Guid(c297d789cd4e3e841b22ef03d5a094b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/forsketchup.jpg using Guid(c297d789cd4e3e841b22ef03d5a094b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8939f52b6a45739c0054674ed0ba9b2e') in 0.019829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/japanese-tea-ceremony copy.jpg
+  artifactKey: Guid(9ee4d994973c1da47b8cdd4658c02f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/japanese-tea-ceremony copy.jpg using Guid(9ee4d994973c1da47b8cdd4658c02f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83a6d059b8f5acbd1011b4214f94ed') in 0.027162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.521536 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/khung tranh.mat
+  artifactKey: Guid(8cc9500531c4d2f48a0034db76df641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/khung tranh.mat using Guid(8cc9500531c4d2f48a0034db76df641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f27df46f47618985c6c632aa42c52f3') in 0.022353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Lisanne_Boot_Sole_02.mat
+  artifactKey: Guid(fc920458449d80e4e8145b70a6dd65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Lisanne_Boot_Sole_02.mat using Guid(fc920458449d80e4e8145b70a6dd65e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77c506b1292b163105bcdee761d3c7a') in 0.017930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/leaf wall.mat
+  artifactKey: Guid(216a9ed75d55a0a4381075ce6613358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/leaf wall.mat using Guid(216a9ed75d55a0a4381075ce6613358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a9c5d71aec3c0f377f0e97a8295706') in 0.039568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030515 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Material #2.mat
+  artifactKey: Guid(60bfdc98a94a4bd4f956556131fe7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Material #2.mat using Guid(60bfdc98a94a4bd4f956556131fe7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbbf410ba479c4c93ac037d93962a71') in 0.015507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Material18_extractedTex.jpg.mat
+  artifactKey: Guid(9f5a665282276ff4099dc5f76d422a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Material18_extractedTex.jpg.mat using Guid(9f5a665282276ff4099dc5f76d422a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b317810ef754220149ef8e76e4b69064') in 0.021078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.826323 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Material24_extractedTex.jpg.mat
+  artifactKey: Guid(4b3d7d6c1284e63419caac9f14eddad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Material24_extractedTex.jpg.mat using Guid(4b3d7d6c1284e63419caac9f14eddad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c759650f3031ba4694568515acacfe44') in 0.030284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Material00170003.mat
+  artifactKey: Guid(1b7e305dc508db242a90955b03c93286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Material00170003.mat using Guid(1b7e305dc508db242a90955b03c93286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fb4799bf34de30ea7cd85e097bf2e2') in 0.021166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.471355 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Material00180004.mat
+  artifactKey: Guid(57c90e1abbdc2a24e981d89a85ac79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Material00180004.mat using Guid(57c90e1abbdc2a24e981d89a85ac79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e4cac1c826540f96c53aefca8872f') in 0.025609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/metal_base_abajur_asfa05a609w05e10a55s.mat
+  artifactKey: Guid(86b20ae10d8123b4484aad3aba9cda3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/metal_base_abajur_asfa05a609w05e10a55s.mat using Guid(86b20ae10d8123b4484aad3aba9cda3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bac5d0ca1a85054cd4fe4009766e5a4') in 0.014748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024783 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Metal_ondulado_brilhante_extractedTex2379.jpg
+  artifactKey: Guid(c3ce6de6f3c6e1a44b26b932fc2540ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Metal_ondulado_brilhante_extractedTex2379.jpg using Guid(c3ce6de6f3c6e1a44b26b932fc2540ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d785bb0f278e182d5715409ec0f328a') in 0.017125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/NW3644K_C_200.jpg
+  artifactKey: Guid(a52bf62aac0f36e43bd6c397f6accba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/NW3644K_C_200.jpg using Guid(a52bf62aac0f36e43bd6c397f6accba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab39c21ba75e48fea8f7a45dae0728a1') in 0.024157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.992547 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/NW3644K_C_200.jpg.mat
+  artifactKey: Guid(a45b4813d73834b468e24ad86c7b5fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/NW3644K_C_200.jpg.mat using Guid(a45b4813d73834b468e24ad86c7b5fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade2a71a0c5839b0ceed8307508170e') in 0.043049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/NW4534A_C_200.jpg.mat
+  artifactKey: Guid(e50111b6833e74a4ea87537bbffc87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/NW4534A_C_200.jpg.mat using Guid(e50111b6833e74a4ea87537bbffc87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2f920054ad0d98b69e445670b921a0') in 0.042086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.341264 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/on.jpg.mat
+  artifactKey: Guid(d415e44d2e7a1294db871c74087dd808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/on.jpg.mat using Guid(d415e44d2e7a1294db871c74087dd808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211a159045a6bee735caa362aa465abe') in 0.040482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/PM1.mat
+  artifactKey: Guid(94e6c276f4343984bb703cd0ca614a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/PM1.mat using Guid(94e6c276f4343984bb703cd0ca614a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ba33c0c2816b2799ce5bfce65b9b3') in 0.015929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/PM9.mat
+  artifactKey: Guid(2c459b28e681f9a48b327c8095948779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/PM9.mat using Guid(2c459b28e681f9a48b327c8095948779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5ab6fc2c0abdee339b32e939cd5975') in 0.010749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.463543 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/PM10.mat
+  artifactKey: Guid(6efc3727e7a85a44d8d2445277c7beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/PM10.mat using Guid(6efc3727e7a85a44d8d2445277c7beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38abb95496f2739a8ef69bf9ef02eb30') in 0.016689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/PM32.mat
+  artifactKey: Guid(cf7a96a2f100c6541ac50f2b27446b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/PM32.mat using Guid(cf7a96a2f100c6541ac50f2b27446b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16973a5600b0a6b402b4a23025b58654') in 0.015507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/PM27.mat
+  artifactKey: Guid(d7cc677c48c41b7498c28d66d5334573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/PM27.mat using Guid(d7cc677c48c41b7498c28d66d5334573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d0718bb65e1e0e9ad4e62f2dd843c2') in 0.340599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.715842 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/ps desktop.jpg.mat
+  artifactKey: Guid(f746352aac2c3894693f60d11e4a1dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/ps desktop.jpg.mat using Guid(f746352aac2c3894693f60d11e4a1dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3df80d495b4022e51a587d87a822f6') in 0.034657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/shine_labs_avalon_vases_base.jpg
+  artifactKey: Guid(699f934299b37b749a49cd8060dabb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/shine_labs_avalon_vases_base.jpg using Guid(699f934299b37b749a49cd8060dabb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ea794b6e083e429cecac17681eccc4') in 0.038928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/R176,G26,B26.mat
+  artifactKey: Guid(8d677f5a9dc19794bb25415d6a849028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/R176,G26,B26.mat using Guid(8d677f5a9dc19794bb25415d6a849028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd51843ad20a1995412a309be8288d69') in 0.014252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Royal Walnut_DIFFUSE.jpg.mat
+  artifactKey: Guid(33a0e623fcfe4224aa11ef8f994e2661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Royal Walnut_DIFFUSE.jpg.mat using Guid(33a0e623fcfe4224aa11ef8f994e2661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c839e61999fb87f7265428297bd4a8') in 0.018297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010568 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/tornillo-estrella.mat
+  artifactKey: Guid(fd52f9a3f9f6c7f4cb43fa1233de2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/tornillo-estrella.mat using Guid(fd52f9a3f9f6c7f4cb43fa1233de2124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0002ad4dd784624b0e25ce131711144e') in 0.022445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/TXT00045.jpg
+  artifactKey: Guid(d94cf3fe6cba87341aaf36d6d150bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/TXT00045.jpg using Guid(d94cf3fe6cba87341aaf36d6d150bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65debc3648a9f8bbccfb42442479b864') in 0.016953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/TXT00042.jpg.mat
+  artifactKey: Guid(78cceb840dddd524aa2e2aa0d26938f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/TXT00042.jpg.mat using Guid(78cceb840dddd524aa2e2aa0d26938f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910d537a027bd103f03300a59b126d3') in 0.011911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.844544 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/TXT00045.jpg.mat
+  artifactKey: Guid(f4fa58f853f12c54a9ddf09932f396f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/TXT00045.jpg.mat using Guid(f4fa58f853f12c54a9ddf09932f396f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691bb732097725bee6e627881af3a709') in 0.045755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/TXT00052.jpg
+  artifactKey: Guid(1cddfa6f2ca2a48468fd18ce70b0f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/TXT00052.jpg using Guid(1cddfa6f2ca2a48468fd18ce70b0f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae9a88de95c336577e502073fc725d') in 0.024756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/TXT00051.jpg.mat
+  artifactKey: Guid(9876e9579f5c293429ace84ae3d73fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/TXT00051.jpg.mat using Guid(9876e9579f5c293429ace84ae3d73fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f37f381b12c4a938f7905540e5c62') in 0.016744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Wood 01.jpg
+  artifactKey: Guid(540e63a41041e4e4f94616fcdfa913e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Wood 01.jpg using Guid(540e63a41041e4e4f94616fcdfa913e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0fa708399015909d6f3c244a6f656') in 0.027911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.583910 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/Wood_Cherry_Original.jpg.mat
+  artifactKey: Guid(6783b75894233d94da303bbad60d31c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/Wood_Cherry_Original.jpg.mat using Guid(6783b75894233d94da303bbad60d31c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515fd4472899b1c4455b0162209880f9') in 0.021334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/设计师SING的模型专用贴图(QQ群号：469733580  (23)16.mat
+  artifactKey: Guid(ee1eb3df4d6ccf94992c508d4b06cb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/设计师SING的模型专用贴图(QQ群号：469733580  (23)16.mat using Guid(ee1eb3df4d6ccf94992c508d4b06cb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5eed9e4273ec2c6a47a07e5044a41e') in 0.021158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020427 seconds.
+  path: Assets/House Blender HDRP/Blend file/textures/设计师SING的模型专用贴图(QQ群号：469733580) (31) (.mat
+  artifactKey: Guid(2412d0d19a360ea498fa18e0a5d989cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House Blender HDRP/Blend file/textures/设计师SING的模型专用贴图(QQ群号：469733580) (31) (.mat using Guid(2412d0d19a360ea498fa18e0a5d989cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cd76a5d2864c0aea7acbcc12ff842d') in 0.011671 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009336 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\LuxPC149\Desktop\GitFolder\LuxHouseOculus01\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <33518779906b403ba9f96eccba6a861b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5866 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6553.
+Memory consumption went from 231.0 MB to 230.3 MB.
+Total: 7.172300 ms (FindLiveObjects: 0.641200 ms CreateObjectMapping: 0.808200 ms MarkObjects: 5.100100 ms  DeleteObjects: 0.621500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
