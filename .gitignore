@@ -21,3 +21,13 @@
 /Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.dylib
 /Library/PackageCache/com.unity.burst@1.7.3/.Runtime/libburst-llvm-12.so
 /Temp/
+*.csproj
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/Packages-Update.log
+Logs/AssetImportWorker1.log
+Logs/AssetImportWorker1-prev.log
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker0-prev.log
+House v1.6 URP VR.sln
+.vsconfig
